@@ -13,12 +13,14 @@ that ML algorithms trained on private data suffer from a persistent vulnerabilit
 that can unintentionally expose information about training samples [1] [3] [5].
 This is particularly the case of Deep Neural Networks due to a hard-to-avoid
 memoization effect in their internal parameters [1].
+
 Differential privacy (DP) [2] is a system for publicly sharing information
-about a dataset by describing the patterns of groups within the data, while with-
-holding information about individuals. This technique has recently attracted in-
-creasing interest from the ML community, as a method to quantify the anonymiza-
-tion of sensitive data during training [3] [2]. Moreover, DP integrates seamlessly
-into the whole process, with no direct effect on its reproducibility.
+about a dataset by describing the patterns of groups within the data, while withholding 
+information about individuals. This technique has recently attracted in-
+creasing interest from the ML community, as a method to quantify the anonymization of 
+sensitive data during training [3] [2]. Moreover, DP integrates seamlessly into the whole
+process, with no direct effect on its reproducibility.
+
 In this talk, we will discuss how DP methods can be effectively used for
 Privacy Preserving Machine learning. We will introduce the main theoretical
 foundations of DP that are relevant for ML analyses. Afterwards, we will demon-
@@ -57,7 +59,11 @@ the 22nd ACM SIGSAC Conference on Computer and Communications Security,
 Quick access to each notebooks, also to open on **Anaconda Notebooks**
 
 
-- 
+- 1-MIA-Training - [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-cifris-23%2Fmain%2F1-MIA-Training.ipynb)	
+- 2-MIA-Reconstruction - [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-cifris-23%2Fmain%2F2-MIA-Reconstruction.ipynb)
+- 3-Differential Privacy in a Nutshell - [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-cifris-23%2Fmain%2F3-Differential-Privacy.ipynb)
+- 4-MIA-DP-Training - [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-cifris-23%2Fmain%2F4-MIA-Reconstruction-OPACUS.ipynb)
+- 5-MIA-DP-Focus - [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-cifris-23%2Fmain%2F5-MIA-Training-OPACUS.ipynb)
 
 ## Get the material
 
